@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Article preview component</title>
+  </head>
+  <body>
+    <main class="d-flex align-items-center justify-content-center flex-column">
+      <article class="container article mb-5">
+        <section class="row row-cols-1 row-cols-md-2">
+          <div class="col col-md-4 featured-image"></div>
+          <div class="col col-md-8 content">
+            <p class="title">Shift the overall look and feel by adding these wonderful touches to furniture in your home</p>
+            <p>Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I’ve got some simple tips to help you make any room feel complete.</p>
+            <footer class="footer article">
+              <div class="author">
+                <img src="images/avatar-michelle.jpg" alt="" />
+                <div class="info">
+                  <address class="name">Michelle Appleton</address>
+                  <time datetime="28-06-2020">28 Jun 2020</time>
+                </div>
+              </div>
+              <div class="share">
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="13"><path fill="#6E8098" d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z" /></svg>
+              </div>
+            </footer>
+          </div>
+        </section>
+        <!--  -->
+        <section id="share-tooltip">
+          <p>SHARE</p>
+          <div class="icons">
+            <img src="images/icon-facebook.svg" alt="icon facebook" />
+            <img src="images/icon-twitter.svg" alt="icon twitter" />
+            <img src="images/icon-pinterest.svg" alt="icon pinterest" />
+          </div>
+        </section>
+      </article>
+      <footer class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io" target="_blank">Frontend Mentor</a>
+        . Coded by
+        <a href="https://github.com/AntonioUngolo" target="_blank">Antonio Ungolo</a>
+        .
+      </footer>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
